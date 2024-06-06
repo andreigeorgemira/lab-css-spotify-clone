@@ -1,8 +1,173 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.nav-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.5em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-bar img{
+    height: 5vw;
+}
+
+.container-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-image img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.spotify-features,
+.spotify-yeezy {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.spotify-features h2,
+.spotify-yeezy h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.spotify-features h2{
+    margin: auto auto 50px auto;
+    width: fit-content;
+    border-bottom: 2px solid #00b172;
+}
+
+.spotify-features .feature h3{
+    color: #00b172;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    min-width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.feature h3{
+    font-size: 2.5em;
+}
+.feature p{
+    font-size: 1.8em;
+}
+
+.feature img {
+    height: 10vw;
+}
+
+.spotify-yeezy {
+    background-color: #00b172;
+    color: white;
+    margin: 0px 20px;
+    padding: 5%;
+}
+.spotify-yeezy h2{
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+.yeezy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.yeezy-text {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.yeezy-text .feature {
+    text-align: left;
+    padding: 0;
+}
+
+.yeezy-text .feature h3 {
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.yeezy-text .feature p {
+    font-size: 1.5em;
+    margin: 5px 0 20px;
+}
+
+.yeezy-image-sootify{
+    width: 20%;
+}
+
+
+.spotify-icon {
+    width: 8vw;
+}
+
+.yeezy-image-container {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.yeezy-image {
+    max-width: 100%;
+    height: auto;
+}
